@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENU</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="menu_pos hide" id="container">
+    <div class="menu">
+      <header class="header">
+        <div class="title">
+          <h1 class="title_header1">BLACK</h1>
+          <h2 class="title_header2">MARKET</h2>
+        </div>
+        <div class="button_list">
+          <button class="catBtn active" data-page="weapons_card">ARMES</button>
+          <button class="catBtn" data-page="items_card">ITEMS</button>
+        </div>
+        <div class="money_pos">
+          <div class="money_list"></div>
+          <p id ="blackmoney">136’714</p>
+        </div>
+      </header>
+      <main class="main">
+        <img src="src/image/back.png" draggable="false" class="bgimage" />
+
+        <div class="group_card" id="weapons_card"></div>
+        <div class="group_card hide" id="items_card"></div>
+      </main>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
